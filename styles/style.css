@@ -1,9 +1,5 @@
 /*Li Ador Noirrit*/
-@font-face {
-  font-family: 'Ador Noirrit';
-  src: url('path/to/AdorNoirrit-Regular.ttf') format('truetype');
-}
-
+@import url('https://fonts.cdnfonts.com/css/li-ador-noirrit');
 .liAdor {
   font-family: 'Ador Noirrit', sans-serif;
 }
