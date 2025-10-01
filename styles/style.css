@@ -1,3 +1,18 @@
-body{
-    background-color: rgb(8, 95, 95);
+/*Li Ador Noirrit*/
+@font-face {
+  font-family: 'Ador Noirrit';
+  src: url('path/to/AdorNoirrit-Regular.ttf') format('truetype');
+}
+
+.liAdor {
+  font-family: 'Ador Noirrit', sans-serif;
+}
+.hind-madurai{
+  font-family: "Hind Madurai", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
 }
