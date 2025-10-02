@@ -18,3 +18,6 @@
 .special-color{
   background: var(--Surface, rgba(250, 250, 250, 1));
 }
+.love-hover{
+  color:red;
+}
