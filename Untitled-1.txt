@@ -1,58 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--tailwind cdn-->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!--DAISY UI CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!--Google Font link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!--Font Awesome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--custom css link-->
-    <link rel="stylesheet" href="./styles/style.css" hreflang="en-US">
-    <!--script JS link-->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
-</head>
-<body>
-    <header class="w-full h-full items-center flex justify-between py-[10px] px-[8px] md:py-[24px] md:px-[60px] min-w-0">
-        <div class="flex items-center justify-center gap-[10px] min-w-0">
-            <div class="w-[25px] md:w-[50px] h-[25px] md:h-[50px]">
-                <img src="./assets/pictures/logo.png" alt="logo">
-            </div>
-            <div class="max-w-[67.86px] md:max-w-[135.72px] max-h-[22.345px] md:max-h-[44.69px] text-left min-w-0">
-                <h1 class="inter text-[#006747] font-black text-[11.5px] md:text-[23px] leading-none">Emergency<br>Service</h1>
-            </div>
-        </div>
-        <div class="max-w-[198.5px] md:max-w-[397px] max-h-[26px] md:max-h-[52px] flex items-center justify-center gap-[10px] md:gap-[20px]">
-            <div class="w-[61.5px] md:w-[123px] h-[26px] md:h-[52px] flex items-center justify-center p-[6px] md:p-[12px] gap-[5px] md:gap-[10px] bg-[#41FF6B1A] rounded-[25px] md:rounded-[50px]">
-                <div class="inter text-[8px] md:text-[16px] font-[900]">0</div>
-                <div class="max-w-[15px] md:max-w-[30px] max-h-[15px] md:max-h-[30px] items-center"><img src="./assets/pictures/heart.png" alt=""></div>
-            </div>
-            <div class="max-w-[53px] md:max-w-[106px] max-h-[26px] md:max-h-[52px] flex items-center justify-center py-[6px] md:py-[12px] px-[10px] md:px-[20px] gap-[5px] md:gap-[10px] bg-[#41FF6B1A] rounded-[25px] md:rounded-[50px]">
-                <div class="inter text-[8px] md:text-[16px] font-[900]">100</div>
-                <div class="max-w-[12px] md:max-w-[24px] max-h-[12px] md:max-h-[24px] "><img src="./assets/pictures/coin.png" alt=""></div>
-            </div>
-            <div class="max-w-[63.5px] md:max-w-[127px] max-h-[26px] md:max-h-[52px] flex items-center justify-center py-[6px] md:py-[12px] px-[18px] md:px-[36px] gap-[5px] md:gap-[10px] bg-[#00A63E] rounded-[50px]">
-                <div class="inter text-[8px] md:text-[16px] font-[600] text-white">2 Copy</div>
-            </div>
-        </div>
-    </header>
-    <div class="w-full h-full text-center justify-center  bg-green-300 py-[6px] md:py-[12px] md:px-[60px] bg-[linear-gradient(90deg,_rgba(1,49,34,1),_rgba(0,103,71,1)_50%,_rgba(1,50,35,1)_100%)]">
-        <img src="./assets/pictures/logo-dark.png" alt="" class="max-w-[46px] md:max-w-[92px] max-h-[46px] md:max-h-[92px] mx-auto ">
-        <p class="hind-madurai font-[700] text-[20px] md:text-[40px] text-white mb-[5.5px] md:mb-[11px] mt-[5.5px] md:mt-[11px]">Emergency Service Directory</p>
-        <p class="hind-madurai text-[10px] md:text-[20px] font-[600] text-white">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
-    </div>
 <footer class="bg-[#f5fff6] pt-[12px] md:pt-[24px] lg:pt-[48px] pl-[14.5px] md:pl-[29px] lg:pl-[58px] pr-[15.5px] md:pr-[31px] lg:pr-[62px] pb-[10.75px] md:pb-[21.5px] lg:pb-[43px] flex flex-row gap-[7.5px] md:gap-[15px] lg:gap-[30px]">
-    <div class="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-[15px] md:gap-y-[15px] lg:gap-x-[30px] lg:gap-y-[30px]">
+    <div class="w-full h-full grid grid-cols-1 md:grid-cols-3 md:gap-x-[15px] md:gap-y-[15px] lg:gap-x-[30px] lg:gap-y-[30px]">
     <!--Single-->
         <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
             <div class="flex flex-auto w-full h-full justify-between items-center">
@@ -310,6 +257,3 @@
         </div>
     </div>
 </footer>
-    <script src="./scripts/script1.js"></script>
-</body>
-</html>
