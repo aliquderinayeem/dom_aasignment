@@ -1,6 +1,6 @@
 let currentCoin = document.getElementById('coin-number').innerText;
-let currentHeart = parseInt(document.getElementById('heart-number').innerText)
-let currentCopied = parseInt(document.getElementById('copy-number').innerText)
+let currentHeart = parseInt(document.getElementById('heart-number').innerText);
+let currentCopied = document.getElementById('copy-number').innerText;
 const loves = document.getElementsByClassName('loved')
 for (love of loves) {
     love.addEventListener('click', function (e) {
@@ -12,6 +12,10 @@ for (love of loves) {
         currentHeart++;
         document.getElementById('heart-number').innerText = currentHeart;
         e.target.classList.add("love-hover");
+        p = e.target.closest('.bg-white');
+        const recipient = p.querySelector('p');
+        const text = recipient.innerText;
+        alert(`added "${text}" to favourite list`)
 
     });
 
@@ -29,16 +33,16 @@ for (call of dial) {
 
             p = e.target.closest('.bg-white');
             const num = p.querySelector('h2');
-            const recipient = p.querySelector('P');
+            const recipient = p.querySelector('p');
             const number = num.innerText;
             const text = recipient.innerText;
             alert("Calling number:  " + number + "\n\n" + text)
 
-            const h=document.getElementById('history');
-            const child=document.createElement('div');
-            const now=new Date();
-            const date=now.toLocaleTimeString();
-            child.innerHTML=`
+            const h = document.getElementById('history');
+            const child = document.createElement('div');
+            const now = new Date();
+            const date = now.toLocaleTimeString();
+            child.innerHTML = `
             <div class="mt-[4px] md:mt-[8px] lg:mt-[12px] xl:mt-[16px] flex justify-between items-center rounded-[2px] md:rounded-[4px] lg:rounded-[6px] xl:rounded-[8px] special-color p-[4px] md:p-[8px] lg:p-[12px] xl:p-[16px]">
             <div class="flex flex-col gap-[1px] md:gap-[2px] lg:gap-[3px] xl:gap-[4px]">
                 <h2 class="inter text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[600]">${text}</h2>
@@ -54,6 +58,30 @@ for (call of dial) {
 
     });
 }
-document.getElementById('cleared-history').addEventListener("click",function(){
-    document.getElementById('history').innerHTML=``
+const hisCLR=document.getElementById('cleared-history');
+hisCLR.classList.add("hovered")
+hisCLR.addEventListener("click", function () {
+    document.getElementById('history').innerHTML = ``;
+    alert("Call history cleared");
+    
 });
+
+//Totally copied
+const copyButtons = document.getElementsByClassName('copied');
+let currentcopied=parseInt(currentCopied);
+for (let btn of copyButtons) {
+    btn.addEventListener('click', function (e) {
+        const card = e.target.closest('.bg-white');
+        const num = card.querySelector('h2');
+        const number = num.innerText;
+currentcopied+=1;
+                console.log(currentCopied);
+        navigator.clipboard.writeText(number)
+            .then(() => {
+                alert(`Copied number: ${number}`);
+            })
+            .catch(err => {
+                console.error('Failed to copy:', err);
+            });
+    });
+}

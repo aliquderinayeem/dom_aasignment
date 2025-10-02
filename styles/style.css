@@ -21,3 +21,6 @@
 .love-hover{
   color:red;
 }
+.hovered:hover{
+  background-color: rgb(136, 136, 136);
+}
