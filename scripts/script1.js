@@ -29,7 +29,7 @@ for (call of dial) {
     call.addEventListener("click", function (e) {
         let balance = parseInt(currentCoin);
         if (balance < 20) {
-            alert("You have spent all Coins!\nKindly Recharge to call again\nThank You");
+            alert("You have spent all Coins!Coin Balance is zero\n\nKindly Recharge to call again\n\n\nThank You");
         } else {
             balance = balance - 20;
             currentCoin = (balance);
@@ -40,7 +40,7 @@ for (call of dial) {
             const recipient = p.querySelector('p');
             const number = num.innerText;
             const text = recipient.innerText;
-            alert("Calling number:  " + number + "\n\n" + text)
+            alert("Calling number:  " + number+ "\n\n" + text)
 
             const h = document.getElementById('history');
             const child = document.createElement('div');
