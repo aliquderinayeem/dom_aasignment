@@ -72,14 +72,15 @@ hisCLR.addEventListener("click", function () {
 
 //Totally copied
 const copyButtons = document.getElementsByClassName('copied');
-let currentcopied=parseInt(currentCopied);
+let copyN=parseInt(currentCopied);
 for (let btn of copyButtons) {
     btn.addEventListener('click', function (e) {
         const card = e.target.closest('.bg-white');
         const num = card.querySelector('h2');
         const number = num.innerText;
-currentcopied+=1;
-                console.log(currentCopied);
+        copyN++;
+         document.getElementById('copy-number').innerText=copyN.toString();
+        //taking to clipboard
         navigator.clipboard.writeText(number)
             .then(() => {
                 alert(`Copied number: ${number}`);
