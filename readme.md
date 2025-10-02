@@ -1,41 +1,41 @@
-#
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
-=>
-[getElementById, getElementsByClassName]
-First of all #id can be set only for one element and multiple element can bear same class.
-getElementById=>gives only one element with the given Id
-getElementsByClassName=>gives an array like object of elements with given className
+1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?<br>
+[getElementById, getElementsByClassName]<br>
+First of all #id can be set only for one element and multiple elements can bear the same class.<br>
+getElementById => gives only one element with the given Id<br>
+getElementsByClassName => gives an array-like object of elements with the given className<br>
+<br>
+querySelector / querySelectorAll<br>
+querySelector provides the first element which matches the provided CSS selector (class, id, tag, etc.)<br>
+querySelectorAll provides all elements which match the provided CSS selector<br>
+<br><br>
 
-querySelector / querySelectorAll
-=>
-querySelector provides the first element which contains the provided className or IDName(CSS selector)
-querySelectorAll provides all elements which contains the provided className or IDName(CSS selector)
+2. How do you create and insert a new element into the DOM?<br>
+First we create an element using .createElement()<br>
+Example: p = document.createElement('li')<br>
+Secondly, we change content using innerText = "" or innerHTML = ``<br>
+Then, we append that child to a parent element<br>
+Example: parent.appendChild(p)<br>
+<br><br>
 
+3. What is Event Bubbling and how does it work?<br>
+Let’s say I click an element on a webpage. The event mechanism will search for that element starting from the deepest node in the hierarchy.<br>
+If found, it will then propagate upward in reverse order through its ancestors.<br>
+Example: child3 is inside child2, which is inside child1, which is inside Parent.<br>
+If we add an eventListener to child3, it will also trigger listeners on child2, child1, and Parent.<br>
+This is called event bubbling.<br>
+<br><br>
 
-2. How do you **create and insert a new element into the DOM**?
-=>
-First we create an elememt using .createElement()
-such as,p=document.createElement('li')
-Secondly,we chage content using innerText="" or innerHTML=``
-Then,we append that child to parent class
-such as,parent.appendChild(p)
+4. What is Event Delegation in JavaScript? Why is it useful?<br>
+Event Delegation uses the concept of event bubbling.<br>
+Instead of adding eventListeners to multiple child elements, we add one listener to a common parent.<br>
+When an event occurs on any child, it bubbles up and is caught by the parent’s listener.<br>
+Why Is It Useful:<br>
+Performance: Fewer listeners = faster DOM<br>
+Less memory usage and easier maintenance<br>
+<br><br>
 
-
-3. What is **Event Bubbling** and how does it work?
-=>
-Let,I have clicked an element in webpage then web-mechanism will search for that element by going upto the lowest node in the hierarchy.If found then it will come upward in the same way but in reverse direction.This is event bubbling.
-Let child3 is a child of child2 and child2 is a child of child of child1.Finally child1 is a child of Parent.If we add a eventListener to child3 it will call child2,child1 and Parent's eventListener also.
-This is called event bubbling
-4. What is **Event Delegation** in JavaScript? Why is it useful?
-=>Let,I have clicked an element in webpage then web-mechanism will search for that element by going upto the lowest node in the hierarchy.If found then it will come upward in the same way but in reverse direction.This is event bubbling.
-Let child3 is a child of child2 and child2 is a child of child of child1.Finally child1 is a child of Parent.If we add a eventListener to parent and cause the event anywhere(any of the child or parent ) the eventListener will fire.
-Why Is It Useful=>
-Performance: Fewer listeners = faster DOM
-
-
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
-=>
-preventDefault()
-Stop a form from submitting
-stopPropagation()
-Prevent a link from navigating
+5. What is the difference between preventDefault() and stopPropagation() methods?<br>
+preventDefault():<br>
+Prevents the default action of an element (e.g., stops a form from submitting)<br>
+stopPropagation():<br>
+Stops the event from bubbling up to parent elements (e.g., prevents a link from triggering parent listeners)<br>
