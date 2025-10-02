@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,289 +14,439 @@
     <!--Google Font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!--Font Awesome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--custom css link-->
     <link rel="stylesheet" href="./styles/style.css" hreflang="en-US">
     <!--script JS link-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+
 </head>
+
 <body>
-    <header class="w-full h-full items-center flex justify-between py-[10px] px-[8px] md:py-[24px] md:px-[60px] min-w-0">
+    <header
+        class="w-full h-full items-center flex justify-between py-[10px] px-[8px] md:py-[24px] md:px-[60px] min-w-0">
         <div class="flex items-center justify-center gap-[10px] min-w-0">
             <div class="w-[25px] md:w-[50px] h-[25px] md:h-[50px]">
                 <img src="./assets/pictures/logo.png" alt="logo">
             </div>
             <div class="max-w-[67.86px] md:max-w-[135.72px] max-h-[22.345px] md:max-h-[44.69px] text-left min-w-0">
-                <h1 class="inter text-[#006747] font-black text-[11.5px] md:text-[23px] leading-none">Emergency<br>Service</h1>
+                <h1 class="inter text-[#006747] font-black text-[11.5px] md:text-[23px] leading-none">
+                    Emergency<br>Service</h1>
             </div>
         </div>
-        <div class="max-w-[198.5px] md:max-w-[397px] max-h-[26px] md:max-h-[52px] flex items-center justify-center gap-[10px] md:gap-[20px]">
-            <div class="w-[61.5px] md:w-[123px] h-[26px] md:h-[52px] flex items-center justify-center p-[6px] md:p-[12px] gap-[5px] md:gap-[10px] bg-[#41FF6B1A] rounded-[25px] md:rounded-[50px]">
+        <div
+            class="max-w-[198.5px] md:max-w-[397px] max-h-[26px] md:max-h-[52px] flex items-center justify-center gap-[10px] md:gap-[20px]">
+            <div
+                class="w-[61.5px] md:w-[123px] h-[26px] md:h-[52px] flex items-center justify-center p-[6px] md:p-[12px] gap-[5px] md:gap-[10px] bg-[#41FF6B1A] rounded-[25px] md:rounded-[50px]">
                 <div class="inter text-[8px] md:text-[16px] font-[900]"><span id="heart-number">0</span></div>
-                <div class="max-w-[15px] md:max-w-[30px] max-h-[15px] md:max-h-[30px] items-center"><img src="./assets/pictures/heart.png" alt=""></div>
+                <div class="max-w-[15px] md:max-w-[30px] max-h-[15px] md:max-h-[30px] items-center"><img
+                        src="./assets/pictures/heart.png" alt=""></div>
             </div>
-            <div class="max-w-[53px] md:max-w-[106px] max-h-[26px] md:max-h-[52px] flex items-center justify-center py-[6px] md:py-[12px] px-[10px] md:px-[20px] gap-[5px] md:gap-[10px] bg-[#41FF6B1A] rounded-[25px] md:rounded-[50px]">
+            <div
+                class="max-w-[53px] md:max-w-[106px] max-h-[26px] md:max-h-[52px] flex items-center justify-center py-[6px] md:py-[12px] px-[10px] md:px-[20px] gap-[5px] md:gap-[10px] bg-[#41FF6B1A] rounded-[25px] md:rounded-[50px]">
                 <div class="inter text-[8px] md:text-[16px] font-[900]"><span id="coin-number">100</span></div>
-                <div class="max-w-[12px] md:max-w-[24px] max-h-[12px] md:max-h-[24px] "><img src="./assets/pictures/coin.png" alt=""></div>
+                <div class="max-w-[12px] md:max-w-[24px] max-h-[12px] md:max-h-[24px] "><img
+                        src="./assets/pictures/coin.png" alt=""></div>
             </div>
-            <div class="max-w-[63.5px] md:max-w-[127px] max-h-[26px] md:max-h-[52px] flex items-center justify-center py-[6px] md:py-[12px] px-[18px] md:px-[36px] gap-[5px] md:gap-[10px] bg-[#00A63E] rounded-[50px]">
-                <div class="inter text-[8px] md:text-[16px] font-[600] text-white text-nowrap"><span id="copy-number">0</span> Copy</div>
+            <div
+                class="max-w-[63.5px] md:max-w-[127px] max-h-[26px] md:max-h-[52px] flex items-center justify-center py-[6px] md:py-[12px] px-[18px] md:px-[36px] gap-[5px] md:gap-[10px] bg-[#00A63E] rounded-[50px]">
+                <div class="inter text-[8px] md:text-[16px] font-[600] text-white text-nowrap"><span
+                        id="copy-number">0</span> Copy</div>
             </div>
         </div>
     </header>
-    <div class="w-full h-full text-center justify-center  bg-green-300 py-[6px] md:py-[12px] md:px-[60px] bg-[linear-gradient(90deg,_rgba(1,49,34,1),_rgba(0,103,71,1)_50%,_rgba(1,50,35,1)_100%)]">
-        <img src="./assets/pictures/logo-dark.png" alt="" class="max-w-[46px] md:max-w-[92px] max-h-[46px] md:max-h-[92px] mx-auto ">
-        <p class="hind-madurai font-[700] text-[20px] md:text-[40px] text-white mb-[5.5px] md:mb-[11px] mt-[5.5px] md:mt-[11px]">Emergency Service Directory</p>
-        <p class="hind-madurai text-[10px] md:text-[20px] font-[600] text-white">Government Emergency Services at Your Fingertip - A Project by  Government of the People's Republic of Bangladesh</p>
+    <div
+        class="w-full h-full text-center justify-center  bg-green-300 py-[6px] md:py-[12px] md:px-[60px] bg-[linear-gradient(90deg,_rgba(1,49,34,1),_rgba(0,103,71,1)_50%,_rgba(1,50,35,1)_100%)]">
+        <img src="./assets/pictures/logo-dark.png" alt=""
+            class="max-w-[46px] md:max-w-[92px] max-h-[46px] md:max-h-[92px] mx-auto ">
+        <p
+            class="hind-madurai font-[700] text-[20px] md:text-[40px] text-white mb-[5.5px] md:mb-[11px] mt-[5.5px] md:mt-[11px]">
+            Emergency Service Directory</p>
+        <p class="hind-madurai text-[10px] md:text-[20px] font-[600] text-white">Government Emergency Services at Your
+            Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
     </div>
-<footer class="bg-[#f5fff6] pt-[12px] md:pt-[24px] lg:pt-[48px] pl-[13.5px] md:pl-[30px] lg:pl-[60px] pr-[13.5px] md:pr-[30px] lg:pr-[60px] pb-[10.75px] md:pb-[21.5px] lg:pb-[43px] flex flex-row gap-[7.5px] md:gap-[15px] lg:gap-[30px]">
-    <div class="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-[10px] md:gap-x-[15px] md:gap-y-[15px] lg:gap-x-[30px] lg:gap-y-[30px]">
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/emergency.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+    <footer
+        class="bg-[#f5fff6] pt-[12px] md:pt-[24px] lg:pt-[48px] pl-[13.5px] md:pl-[30px] lg:pl-[60px] pr-[13.5px] md:pr-[30px] lg:pr-[60px] pb-[10.75px] md:pb-[21.5px] lg:pb-[43px] flex flex-row gap-[7.5px] md:gap-[15px] lg:gap-[30px]">
+        <div
+            class="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-[10px] md:gap-x-[15px] md:gap-y-[15px] lg:gap-x-[30px] lg:gap-y-[30px]">
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/emergency.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
                 </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal service">
+                    National Emergency Number</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    National Emergency</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    999</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100 mt-[2px]">
+                    All</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
                 </div>
             </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal service">National Emergency Number</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">National Emergency</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">999</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100 mt-[2px]">All</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/police.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
                 </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Police Helpline Number</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    Police</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    333</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Police</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/fire-service.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Fire Service Number</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Fire
+                    Service</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    102</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Fire</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/ambulance.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Ambulance</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    Ambulance</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    1994-999999</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Health</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/emergency.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Women & Child Helpline</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    Women & Child Helpline</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    109</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Help</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/emergency.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Anti-Corruption Helpline</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    Anti-Corruption</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    106</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Govt.</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/emergency.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Electricity Helpline</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    Electricity Outage</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    16216</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Electricity</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/emergency.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Brac Helpline</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Brac
+                </p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    16445</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    NGO</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
+                </div>
+            </div>
+            <!--Single-->
+            <div
+                class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+                <div class="flex flex-auto w-full h-full justify-between items-center">
+                    <div
+                        class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
+                        <img src="./assets/pictures/emergency.png" alt="ambulance"
+                            class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
+                    </div>
+                    <div
+                        class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
+                        <i
+                            class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
+                    </div>
+                </div>
+                <p
+                    class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">
+                    Bangladesh Railway Helpline</p>
+                <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">
+                    Bangladesh Railway</p>
+                <h2
+                    class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">
+                    163</h2>
+                <div
+                    class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">
+                    Travel</div>
+                <div
+                    class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
+                    <div
+                        class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] ">Copy</span>
+                    </div>
+                    <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial group hover:bg-[rgb(170,170,170)] hover:text-[rgb(10,10,10)] md:hover:text-[110%]">
+                        <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px] group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]"></i>
+                        <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white group-hover:bg-[rgb(170,170,170)] group-hover:text-[rgb(10,10,10)] md:group-hover:text-[110%]">Call</span>
+                    </div>
                 </div>
             </div>
         </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/police.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Police Helpline Number</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Police</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">333</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Police</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/fire-service.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Fire Service Number</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Fire Service</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">102</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Fire</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/ambulance.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Ambulance</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Ambulance</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">1994-999999</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Health</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/emergency.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Women & Child Helpline</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Women & Child Helpline</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">109</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Help</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/emergency.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Anti-Corruption Helpline</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Anti-Corruption</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">106</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Govt.</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/emergency.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Electricity Helpline</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Electricity Outage</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">16216</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Electricity</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/emergency.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Brac Helpline</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Brac</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">16445</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">NGO</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    <!--Single-->
-        <div class="bg-white flex flex-col text-start p-[16px] md:p-[24px] lg:p-[32px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
-            <div class="flex flex-auto w-full h-full justify-between items-center">
-                <div class="w-[30px] md:w-[45px] lg:w-[60px] h-[30px] md:h-[45px] lg:h-[60px] bg-[#ffe3e2] flex items-center justify-center rounded-[8px] md:rounded-[12px] lg:rounded-[16px]">
-                    <img src="./assets/pictures/emergency.png" alt="ambulance" class="w-[16px] md:w-[24px] lg:w-[32px] h-[16px] md:h-[24px] lg:h-[32px]">
-                </div>
-                <div class="w-[12px] md:w-[18px] lg:w-[24px] h-[12px] md:h-[18px] lg:h-[24px] flex items-center justify-center">
-                <i class="fa-regular fa-heart text-[11px] md:text-[16.5px] lg:text-[22px] text-gray-400 loved"></i>
-                </div>
-            </div>
-            <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal">Bangladesh Railway Helpline</p>
-            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">Bangladesh Railway</p>
-            <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">163</h2>
-            <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100  mt-[2px]">Travel</div>
-            <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
-                <div class="copied w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] border-[1px] border-[rgba(212,214,213,1)] rounded-[4px] md:rounded-[6px] lg:rounded-[8px]">
-                    <i class="fa-solid fa-copy text-gray-300 text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px]">Copy</span>
-                </div>
-                <div class="w-full h-full flex items-center justify-center gap-[3px] md:gap-[4.5px] lg:gap-[6px] rounded-[4px] md:rounded-[6px] lg:rounded-[8px] bg-[#00a63e]  dial">
-                    <i class="fa-solid fa-phone text-white text-[10px] md:text-[12px] lg:text-[16px]"></i>
-                    <span class="roboto text-[10px] md:text-[12px] lg:text-[16px] font-[400] text-white">Call</span>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="min-w-[150px] md:max-w-[150px] lg:max-w-[300px] xl:min-w-[400px] bg-white p-[6px] md:p-[12px] lg:p-[18px] xl:p-[24px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow overflow-y-scroll" >
-        <!--Heading-->
-        <div class="flex justify-between">
-            <div class="flex items-center justify-center gap-[4px] md:gap-[6px] lg:gap-[8px]">
-                <i class="fa-regular fa-clock"></i>
-                <p class="roboto text-[11px] lg:text-[15px] xl:text-[20px] font-[500]">Call History</p>
+        <div
+            class="min-w-[150px] md:max-w-[150px] lg:max-w-[300px] xl:min-w-[400px] bg-white p-[6px] md:p-[12px] lg:p-[18px] xl:p-[24px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow overflow-y-scroll">
+            <!--Heading-->
+            <div class="flex justify-between">
+                <div class="flex items-center justify-center gap-[4px] md:gap-[6px] lg:gap-[8px]">
+                    <i class="fa-regular fa-clock"></i>
+                    <p class="roboto text-[11px] lg:text-[15px] xl:text-[20px] font-[500]">Call History</p>
+                </div>
+                <div id="cleared-history"
+                    class="inter text-[9.5px] lg:text-[12px] xl:text-[16px] font-[600] w-[45px] md:w-[57px] lg:w-[85.5px] xl:w-[114px] h-[20px] md:h-[26px] lg:h-[39px] xl:h-[52px] py-[3px] md:py-[6px] lg:py-[9px] xl:py-[12px] px-[12px] md:px-[18px] lg:px-[27px] xl:px-[36px] text-white bg-[#00A63E] rounded-[50px]">
+                    <p>Clear</p>
+                </div>
             </div>
-            <div id="cleared-history" class="inter text-[9.5px] lg:text-[12px] xl:text-[16px] font-[600] w-[45px] md:w-[57px] lg:w-[85.5px] xl:w-[114px] h-[20px] md:h-[26px] lg:h-[39px] xl:h-[52px] py-[3px] md:py-[6px] lg:py-[9px] xl:py-[12px] px-[12px] md:px-[18px] lg:px-[27px] xl:px-[36px] text-white bg-[#00A63E] rounded-[50px]">
-                <p >Clear</p>
-            </div>
-        </div>
-        <div id="history">
+            <div id="history">
 
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
     <script src="./scripts/script1.js"></script>
 </body>
+
 </html>

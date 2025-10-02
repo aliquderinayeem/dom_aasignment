@@ -3,15 +3,19 @@ let currentHeart = parseInt(document.getElementById('heart-number').innerText);
 let currentCopied = document.getElementById('copy-number').innerText;
 const loves = document.getElementsByClassName('loved')
 for (love of loves) {
-    love.addEventListener('click', function (e) {
-        if (e.target.dataset.clicked === 'true') {
+    love.addEventListener('click', function (e) {//question>what about the working procedure ?We have added eventListener to all individual elements by loop.It's a;ll the same if we added eventListener individually
+        if (e.target.dataset.clicked === 'true') {//target er majhe kichu dataset ache jar majhe clicked ekta attribute
             alert("Already added to favourite")
             return;
         }
         e.target.dataset.clicked = 'true';
         currentHeart++;
-        document.getElementById('heart-number').innerText = currentHeart;
+        document.getElementById('heart-number').innerText = currentHeart.toString();
         e.target.classList.add("love-hover");
+        // p1=e.target.parentNode.parentNode.parentNode;
+        // console.log(p1);
+        // aim=p1.querySelector(".yoyo");//Problem is heading tag there is something that is preventing from consoling the desired output
+        // console.log(aim)
         p = e.target.closest('.bg-white');
         const recipient = p.querySelector('p');
         const text = recipient.innerText;
