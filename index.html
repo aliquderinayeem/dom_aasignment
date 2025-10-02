@@ -64,7 +64,7 @@
                 </div>
             </div>
             <p class="liAdor font-[700] text-[12px] md:text-[18px] lg:text-[24px] mt-[8px] md:mt-[12px] lg:mt-[16px] leading-[16px] md:leading-[24px] lg:leading-[32px] tracking-normal service">National Emergency Number</p>
-            <P class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">National Emergency</P>
+            <p class="roboto text-[9px] md:text-[13.5px] lg:text-[18px] font-[400] text-[#5c5c5c] leading-none">National Emergency</p>
             <h2 class="roboto text-[16px] md:text-[24px] lg:text-[32px] font-[700] mt-[12px] md:mt-[18px] lg:mt-[24px] tracking-normal leading-none">999</h2>
             <div class="self-start inline-block whitespace-nowrap py-[3px] md:py-[4.5px] lg:py-[6px] px-[8px] md:px-[12px] lg:px-[16px] rounded-[9999px] bg-gray-100 mt-[2px]">All</div>
             <div class="w-full min-h-[20px] md:min-h-[30px] lg:min-h-[40px] flex gap-[4px] md:gap-[6px] lg:gap-[8px] mt-[12px] md:mt-[18px] lg:mt-[24px] mb-[0px]">
@@ -280,33 +280,19 @@
         </div>
     </div>
 
-    <div class="min-w-[150px] md:max-w-[150px] lg:max-w-[300px] xl:min-w-[400px] bg-white p-[6px] md:p-[12px] lg:p-[18px] xl:p-[24px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow">
+    <div class="min-w-[150px] md:max-w-[150px] lg:max-w-[300px] xl:min-w-[400px] bg-white p-[6px] md:p-[12px] lg:p-[18px] xl:p-[24px] rounded-[6px] md:rounded-[9px] lg:rounded-[12px] shadow overflow-y-scroll" >
+        <!--Heading-->
         <div class="flex justify-between">
             <div class="flex items-center justify-center gap-[4px] md:gap-[6px] lg:gap-[8px]">
                 <i class="fa-regular fa-clock"></i>
                 <p class="roboto text-[11px] lg:text-[15px] xl:text-[20px] font-[500]">Call History</p>
             </div>
-            <div class="inter text-[9.5px] lg:text-[12px] xl:text-[16px] font-[600] w-[45px] md:w-[57px] lg:w-[85.5px] xl:w-[114px] h-[20px] md:h-[26px] lg:h-[39px] xl:h-[52px] py-[3px] md:py-[6px] lg:py-[9px] xl:py-[12px] px-[12px] md:px-[18px] lg:px-[27px] xl:px-[36px] text-white bg-[#00A63E] rounded-[50px]">
-                <p>Clear</p>
+            <div id="cleared-history" class="inter text-[9.5px] lg:text-[12px] xl:text-[16px] font-[600] w-[45px] md:w-[57px] lg:w-[85.5px] xl:w-[114px] h-[20px] md:h-[26px] lg:h-[39px] xl:h-[52px] py-[3px] md:py-[6px] lg:py-[9px] xl:py-[12px] px-[12px] md:px-[18px] lg:px-[27px] xl:px-[36px] text-white bg-[#00A63E] rounded-[50px]">
+                <p >Clear</p>
             </div>
         </div>
-        <div class="mt-[4px] md:mt-[8px] lg:mt-[12px] xl:mt-[16px] flex justify-between items-center rounded-[2px] md:rounded-[4px] lg:rounded-[6px] xl:rounded-[8px] special-color p-[4px] md:p-[8px] lg:p-[12px] xl:p-[16px]">
-            <div class="flex flex-col gap-[1px] md:gap-[2px] lg:gap-[3px] xl:gap-[4px]">
-                <h2 class="inter text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[600]">Bangladesh Railway Helpline</h2>
-                <p class="hind-madurai text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[400] text-[#5c5c5c]">999</p>
-            </div>
-            <div>
-                <p class="hind-madurai text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[400] lg:text-nowrap">11:36:58 AM</p>
-            </div>
-        </div>
-        <div class="mt-[4px] md:mt-[8px] lg:mt-[12px] xl:mt-[16px] flex justify-between items-center rounded-[4px] md:rounded-[6px] lg:rounded-[8px] xl:rounded-[8px] special-color p-[8px] md:p-[12px] lg:p-[16px] xl:p-[16px]">
-            <div class="flex flex-col gap-[2px] md:gap-[3px] lg:gap-[4px] xl:gap-[4px]">
-                <h2 class="inter text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[600]">Fire Service Number</h2>
-                <p class="hind-madurai text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[400] text-[#5c5c5c]">999</p>
-            </div>
-            <div>
-                <p class="hind-madurai text-[9px] md:text-[13.5px] lg:text-[18px] xl:text-[18px] font-[400] lg:text-nowrap">11:36:58 AM</p>
-            </div>
+        <div id="history">
+
         </div>
     </div>
 </footer>
